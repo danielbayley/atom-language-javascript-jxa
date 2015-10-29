@@ -1,0 +1,12 @@
+'name': 'JavaScript for Automation (JXA)'
+'scopeName': 'source.jxa'
+'fileTypes': [
+	'jxa'
+	'jxainc'
+	'jsa'
+	'jsainc'
+]
+'firstLineMatch': '^#!.*\\b(osascript -l JavaScript)'
+'patterns': [
+	'include': 'source.js'
+]
