@@ -1,6 +1,8 @@
 'name': 'JavaScript for Automation (JXA)'
 'scopeName': 'source.jxa'
 'fileTypes': [
+	'scpt'
+	# TODO 'scptd'
 	'jxa'
 	'jxainc'
 	'jsa'
