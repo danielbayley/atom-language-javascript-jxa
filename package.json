@@ -1,22 +1,22 @@
 {
-	"name": "language-javascript-jxa",
-	"version": "0.2.0",
-	"description": "JavaScript for Automation (JXA) language support in Atom.",
-	"keywords": [
-		"javascript",
-		"jxa",
-		"osascript",
-		"osa",
-		"mac",
-		"osx"
-	],
-	"engines": {
-		"atom": "*"
-	},
-	"homepage": "http://atom.io/packages/language-javascript-jxa",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/danielbayley/atom-language-javascript-jxa.git"
-	},
-	"license": "MIT"
+  "name": "language-javascript-jxa",
+  "version": "0.2.1",
+  "description": "JavaScript for Automation (JXA) language support in Atom.",
+  "keywords": [
+    "javascript",
+    "jxa",
+    "osascript",
+    "osa",
+    "mac",
+    "osx"
+  ],
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "http://atom.io/packages/language-javascript-jxa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbayley/atom-language-javascript-jxa.git"
+  },
+  "license": "MIT"
 }
