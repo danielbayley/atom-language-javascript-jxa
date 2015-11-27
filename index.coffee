@@ -1,22 +1,14 @@
-{exec} = require 'child_process'
-{BufferedProcess} = require 'atom'
+{execSync,exec} = require 'child_process'
 
-module.exports =
-	activate: ->
-		atom.workspace.observeTextEditors (editor) ->
+module.exports = activate: ->
+	atom.workspace.observeTextEditors (editor) ->
+		scpt = editor.getPath()
 
-			scpt = editor.getPath()
+		if /\.scptd?$/.test scpt
+			# Decompile .scpt
+			buffer = execSync "osadecompile '#{scpt}'"
+			editor.setText buffer.toString()
 
-			command = 'osadecompile'
-			args = [scpt]
-
-			# Display raw JXA code
-			stdout = (raw) -> editor.setText raw
-
-			if /\.scptd?$/.test scpt
-				# Decompile .scpt
-				new BufferedProcess {command,args,stdout}
-
-				# Recompile on save
-				editor.onDidDestroy -> #onDidSave
-					exec "osacompile -l JavaScript -o #{scpt}{,}"
+			# Recompile on save/close
+			editor.onDidDestroy -> #onDidSave
+				exec "osacompile -l JavaScript -o '#{scpt}'{,}"
