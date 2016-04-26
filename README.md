@@ -3,7 +3,7 @@
 Now you can use your favourite editor instead<sup id="R1">[*](#F1)</sup> of Apple's crappy _Script Editor_!
 
 ## Install
-`apm install language-javascript-jxa` or search "jxa" under packages within Atom.
+`apm install language-javascript-jxa` or search _jxa_ under packages within Atom.
 
 <br>
 
