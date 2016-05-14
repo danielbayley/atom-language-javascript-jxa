@@ -1,6 +1,6 @@
 {
   "name": "language-javascript-jxa",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "JavaScript for Automation (JXA) language support in Atom.",
   "keywords": [
     "javascript",
