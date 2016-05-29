@@ -1,4 +1,4 @@
-Copyright (c) 2015 Daniel Bayley
+Copyright © 2015 Daniel Bayley
 <daniel.bayley@me.com>
 [github.com/danielbayley](http://github.com/danielbayley)
 
