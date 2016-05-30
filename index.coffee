@@ -9,17 +9,15 @@ module.exports =
 			buffer = editor.buffer
 			scpt = buffer.file?.path
 			{scopeName} = editor.getGrammar()
-			#require 'fs-cson/register'
-			# {firstLineMatch} = require './grammars/jxa.cson'
-			if scopeName.endsWith('jxa') and
-				scpt?.endsWith '.scpt' and /^JsOsa/.test buffer.getLines()[0]
+
+			if scopeName.endsWith('jxa') and scpt.endsWith('.scpt') and
+				buffer.getLines()[0].startsWith 'JsOsa'
 
 					# Decompile .scpt
 					{stdout} = exec "osadecompile '#{scpt}'"
 					stdout.on 'data', (script) -> editor.setText script
 
-					# Recompile on save/close
-					editor.onDidDestroy -> #onDidSave
+					editor.onDidDestroy -> # Recompile
 						exec "osacompile -l JavaScript -o '#{scpt}'{,}"
 
 #-------------------------------------------------------------------------------

@@ -9,7 +9,7 @@
     "mac",
     "osx"
   ],
-  "homepage": "http://atom.io/packages/language-javascript-jxa",
+  "homepage": "https://atom.io/packages/language-javascript-jxa",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielbayley/atom-language-javascript-jxa.git"
@@ -17,18 +17,16 @@
   "bugs": {
     "url": "https://github.com/danielbayley/atom-language-javascript-jxa/issues"
   },
-  "author": {
-    "name": "danielbayley <danielbayley@me.com>"
-  },
+  "author": "Daniel Bayley <daniel.bayley@me.com> (https://github.com/danielbayley)",
   "private": true,
   "license": "MIT",
+  "os": [
+    "darwin"
+  ],
   "engines": {
     "atom": "*"
   },
   "activationHooks": [
     "language-javascript-jxa:grammar-used"
-  ],
-  "os": [
-    "darwin"
   ]
 }

@@ -1,11 +1,11 @@
-[_JavaScript for Automation_][jxa] ("JXA") language support in [Atom]
+[_JavaScript for Automation_][jxa] (“JXA”) language support in [Atom]
 =====================================================================
 
 Now you can use your favourite editor instead<sup id="R1">[*](#F1)</sup> of Apple's crappy _Script Editor_!
 
 Install
 -------
-`apm install language-javascript-jxa` or search "jxa" under packages within Atom.
+`apm install language-javascript-jxa` or search “jxa” under packages within Atom.
 
 Change Log
 ----------
@@ -34,9 +34,9 @@ License
 -------
 [MIT] © [Daniel Bayley]
 
-[MIT]:                    LICENSE.md
-[Daniel Bayley]:          https://github.com/danielbayley
-[atom]:                   https://atom.io
-[atom-script]:            https://atom.io/packages/script
+[MIT]:										LICENSE.md
+[Daniel Bayley]:					https://github.com/danielbayley
+[atom]:										https://atom.io
+[atom-script]:						https://atom.io/packages/script
 [language-applescript]:   https://atom.io/packages/language-applescript
-[jxa]:                    https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/Introduction.html
+[jxa]:										https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/Introduction.html
