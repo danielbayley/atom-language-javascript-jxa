@@ -7,7 +7,7 @@ module.exports =
 
 		@subs = atom.workspace.observeTextEditors (editor) ->
 			buffer = editor.buffer
-			scpt = buffer.file?.path
+			scpt = buffer.file?.path ? ''
 			{scopeName} = editor.getGrammar()
 
 			if scopeName.endsWith('jxa') and scpt.endsWith('.scpt') and
