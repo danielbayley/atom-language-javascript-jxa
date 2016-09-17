@@ -1,9 +1,9 @@
-name: 'JavaScript for Automation (JXA)'
+name: "JavaScript for Automation (JXA)"
 fileTypes: [
-	'scpt'
-	'jxa'
-	'jxainc'
-	'applescript'
+  'scpt'
+  'jxa'
+  'jxainc'
+  'applescript'
 ]
 firstLineMatch: '''
 ^JsOsa|^#!\\s*/.*\\bosascript -l JavaScript|^(Application|Library)[\\(.]|^ObjC|=
