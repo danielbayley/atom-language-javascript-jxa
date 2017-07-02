@@ -6,7 +6,7 @@ fileTypes: [
   'applescript'
 ]
 firstLineMatch: '''
-^JsOsa|^#!\\s*/.*\\bosascript -l JavaScript|^(Application|Library)[\\(.]|^ObjC|=
+^(JsOsa|#!.*osascript\\s+-l\\s+JavaScript|.*(Application|Library)\\s*\\(|ObjC)
 '''
 scopeName: 'source.js.jxa'
 patterns: [ include: 'source.js']
