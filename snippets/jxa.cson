@@ -1,0 +1,23 @@
+'.source.js.jxa':
+  bang: #!
+    prefix: '!'
+    body: '#! /usr/bin/osascript -l JavaScript\n'
+
+  Library:
+    prefix: 'lib'
+    body: "${1:lib} = Library('${1:lib}')"
+    description: "Import script library."
+    descriptionMoreURL: 'https://github.com/JXA-Cookbook/JXA-Cookbook/wiki/Importing-Scripts#jxa-libraries'
+
+  Application:
+    prefix: 'app'
+    body: "${1:app} = Application('${1:app}')"
+
+  "Scripting additions":
+    prefix: 'add'
+    body: '''
+      var ${1:app} = Application.currentApplication()
+      ${1:app}.includeStandardAdditions = true
+      '''
+    description: "Include scripting additions."
+    descriptionMoreURL: 'https://github.com/JXA-Cookbook/JXA-Cookbook/wiki/Getting-the-Application-Instance'
