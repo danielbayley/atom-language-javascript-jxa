@@ -1,4 +1,5 @@
 [![badge][apm]][package]
+[![badge][downloads]][package]
 [![badge][chat]][#slack]
 
 [_JavaScript for Automation_][jxa] (“JXA”) language support in [Atom]
@@ -39,6 +40,7 @@ License
 [Daniel Bayley]:          https://github.com/danielbayley
 [atom]:                   https://atom.io
 [apm]:                    https://img.shields.io/apm/v/transpile.svg?style=flat-square
+[downloads]:              https://img.shields.io/apm/dm/language-javascript-jxa.svg?style=flat-square
 [package]:                https://atom.io/packages/language-javascript-jxa
 [chat]:                   https://img.shields.io/badge/chat-atom.io%20slack-ff69b4.svg?style=flat-square
 [#slack]:                 https://atom-slack.herokuapp.com
