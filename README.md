@@ -39,10 +39,10 @@ License
 [MIT]:                    LICENSE.md
 [Daniel Bayley]:          https://github.com/danielbayley
 [atom]:                   https://atom.io
-[apm]:                    https://img.shields.io/apm/v/transpile.svg?style=flat-square
-[downloads]:              https://img.shields.io/apm/dm/language-javascript-jxa.svg?style=flat-square
+[apm]:                    https://flat.badgen.net/apm/v/language-javascript-jxa
+[downloads]:              https://flat.badgen.net/apm/dl/language-javascript-jxa
 [package]:                https://atom.io/packages/language-javascript-jxa
-[chat]:                   https://img.shields.io/badge/chat-atom.io%20slack-ff69b4.svg?style=flat-square
+[chat]:                   https://flat.badgen.net/badge/slack/atom.io/e02163?label=&icon=slack
 [#slack]:                 https://atom-slack.herokuapp.com
 
 [atom-script]:            https://atom.io/packages/script
