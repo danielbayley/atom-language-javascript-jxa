@@ -3,7 +3,6 @@ fileTypes: [
   'scpt'
   'jxa'
   'jxainc'
-  'applescript'
 ]
 firstLineMatch: '''
 ^(JsOsa|#!.*osascript\\s+-l\\s+JavaScript|.*(Application|Library)\\s*\\(|ObjC)
